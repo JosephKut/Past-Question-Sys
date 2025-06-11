@@ -1,5 +1,6 @@
 import express from 'express';
 import cors from 'cors';
+import supabase from './supabase-client.js';
 const port = 3000;
 
 const app = express();
